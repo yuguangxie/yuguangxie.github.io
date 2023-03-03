@@ -1,56 +1,121 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>个人介绍</title>
+	<title>Yuguang Xie - 自动驾驶工程师</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<style>
 		body {
 			font-family: Arial, sans-serif;
-			background-color: #f2f2f2;
+			background-color: #f5f5f5;
+			color: #333;
+			margin: 0;
+			padding: 0;
 		}
 		
 		.container {
-			width: 80%;
+			max-width: 800px;
 			margin: auto;
 			background-color: #fff;
-			padding: 20px;
-			box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+			padding: 30px;
+			box-shadow: 0px 0px 20px rgba(0,0,0,0.1);
 			border-radius: 5px;
 		}
 		
 		h1 {
 			text-align: center;
-			color: #333;
+			color: #555;
+			margin-top: 0;
 		}
 		
 		h2 {
 			color: #666;
+			margin-top: 20px;
+			margin-bottom: 10px;
 		}
 		
 		p {
 			line-height: 1.5;
 			color: #333;
+			margin-bottom: 15px;
+		}
+		
+		ul {
+			list-style: none;
+			padding-left: 0;
+			margin-bottom: 15px;
+		}
+		
+		li {
+			margin-bottom: 5px;
+		}
+		
+		a {
+			color: #007bff;
+			text-decoration: none;
+		}
+		
+		a:hover {
+			text-decoration: underline;
+		}
+		
+		img {
+			max-width: 100%;
+			height: auto;
+			margin: 20px 0;
+		}
+		
+		@media screen and (max-width: 600px) {
+			.container {
+				padding: 20px;
+			}
+			
+			h1 {
+				font-size: 28px;
+			}
 		}
 	</style>
 </head>
 <body>
 	<div class="container">
-		<h1>个人介绍</h1>
-		<h2>基本信息</h2>
-		<p>姓名：yuguang Xie</p>
-		<p>性别：男</p>
-		<p>年龄：25岁</p>
-		<p>职业：软件工程师</p>
+		<h1>Yuguang Xie</h1>
+		<h2>自动驾驶工程师</h2>
+		<img src="https://example.com/yuguang-xie.jpg" alt="Yuguang Xie">
+		<p>我是一名自动驾驶工程师，专注于使用C++和Python开发自动驾驶系统。我毕业于某某大学计算机科学与技术专业，并获得了硕士学位。</p>
 		<h2>教育背景</h2>
-		<p>学位：本科</p>
-		<p>专业：计算机科学与技术</p>
-		<p>毕业院校：西安电子科技大学</p>
-		<h2>技能与经验</h2>
-		<p>熟悉以下编程语言：C++、Python、JavaScript</p>
-		<p>具有一年软件开发经验</p>
-		<p>熟悉以下软件库：opencv、colmap、pytorch、Cesium</p>
+		<ul>
+			<li>硕士学位：计算机科学与技术，某某大学，2018-2021</li>
+			<li>本科学位：计算机科学与技术，某某大学，2014-2018</li>
+		</ul>
+		<h2>工作经历</h2>
+		<ul>
+			<li>自动驾驶工程师，某某公司，2021至今</li>
+			<li>软件开发工程师，某某公司，2018-2021</li>
+		</ul>
+		<h2>技能</h2>
+		<ul>
+			<li>C++</li>
+			<li>Python</li>
+			<li>ROS</li>
+			<li>TensorFlow</li>
+			<li>Keras</li>
+			<li>OpenCV</li>
+		</ul>
+		<h2>项目经验</h2>
+		<ul>
+			<li>自动驾驶系统开发</li>
+			<p>开发了一款基于深度学习的自动驾驶系统，使用了TensorFlow和Keras框架。该系统能够进行实时的道路边缘检测、车道线检测和障碍物识别，实现了自动驾驶过程中的一些基本功能。</p>
+			<img src="https://example.com/self-driving-system.jpg" alt="Self-driving system">
+			<li>机器人控制系统开发</li>
+			<p>开发了一款基于ROS的机器人控制系统，用于控制一款可以自主移动的机器人。该系统可以实现远程遥控机器人、机器人自主避障和智能巡航等功能。</p>
+			<img src="https://example.com/robot-control-system.jpg" alt="Robot control system">
+		</ul>
+		<h2>联系方式</h2>
+		<ul>
+			<li>邮箱：<a href="mailto:yuguang.xie@example.com">yuguang.xie@example.com</a></li>
+			<li>电话：+1 (123) 456-7890</li>
+			<li>地址：123 Main Street, Anytown, USA</li>
+		</ul>
 	</div>
 </body>
 </html>
-
